@@ -883,20 +883,20 @@ Must be one of `mocha`, `macchiato`, `frappe`, or `latte`."
                (org-formula :foreground ,ctp-pink)
                (org-headline-done :inherit org-done)
                (org-hide :foreground ,ctp-crust :background ,ctp-base)
-               (org-level-1 :inherit bold :foreground ,ctp-red
-                            ,@(when catppuccin-enlarge-headings
-                                (list :height catppuccin-height-title-1)))
-               (org-level-2 :inherit bold :foreground ,ctp-peach
-                            ,@(when catppuccin-enlarge-headings
-                                (list :height catppuccin-height-title-2)))
-               (org-level-3 :weight normal :foreground ,ctp-yellow
-                            ,@(when catppuccin-enlarge-headings
-                                (list :height catppuccin-height-title-3)))
-               (org-level-4 :weight normal :foreground ,ctp-green)
-               (org-level-5 :weight normal :foreground ,ctp-sapphire)
-               (org-level-6 :weight normal :foreground ,ctp-lavender)
-               (org-level-7 :weight normal :foreground ,ctp-mauve)
-               (org-level-8 :weight normal :foreground ,ctp-maroon)
+               ;; (org-level-1 :inherit bold :foreground ,ctp-red
+               ;;              ,@(when catppuccin-enlarge-headings
+               ;;                  (list :height catppuccin-height-title-1)))
+               ;; (org-level-2 :inherit bold :foreground ,ctp-peach
+               ;;              ,@(when catppuccin-enlarge-headings
+               ;;                  (list :height catppuccin-height-title-2)))
+               ;; (org-level-3 :weight normal :foreground ,ctp-yellow
+               ;;              ,@(when catppuccin-enlarge-headings
+               ;;                  (list :height catppuccin-height-title-3)))
+               ;; (org-level-4 :weight normal :foreground ,ctp-green)
+               ;; (org-level-5 :weight normal :foreground ,ctp-sapphire)
+               ;; (org-level-6 :weight normal :foreground ,ctp-lavender)
+               ;; (org-level-7 :weight normal :foreground ,ctp-mauve)
+               ;; (org-level-8 :weight normal :foreground ,ctp-maroon)
                (org-link :inherit link)
                (org-meta-line :inherit font-lock-comment-face)
                (org-priority :foreground ,ctp-yellow)
