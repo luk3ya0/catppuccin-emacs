@@ -874,9 +874,9 @@ Must be one of `mocha`, `macchiato`, `frappe`, or `latte`."
                (org-date :inherit org-agenda-date)
                (org-document-info :foreground ,ctp-sapphire)
                (org-document-info-keyword :inherit font-lock-comment-face)
-               (org-document-title :weight bold :foreground ,ctp-blue
-                                   ,@(when catppuccin-enlarge-headings
-                                       (list :height catppuccin-height-doc-title)))
+               ;; (org-document-title :weight bold :foreground ,ctp-blue
+               ;;                     ,@(when catppuccin-enlarge-headings
+               ;;                         (list :height catppuccin-height-doc-title)))
                (org-done :inherit font-lock-comment-face)
                (org-ellipsis :inherit font-lock-comment-face)
                (org-footnote :foreground ,ctp-mauve)
